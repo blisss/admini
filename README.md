@@ -1,4 +1,4 @@
 ```js
 npm install
-webpack-dev-server
+npm run dev
 ```
