@@ -1,0 +1,11 @@
+{
+	"datname": "webcc",
+	"datdba": 16389,
+	"encoding": "UTF-8",
+	"datcollate": "zh_CN.UTF-8",
+	"datctype": "zh_CN.UTF-8",
+	"datistemplate": false,
+	"datallowconn": true,
+	"datconnlimit": -1,
+	"dattablespace": 1663
+}

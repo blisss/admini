@@ -3,8 +3,7 @@ import { containerLayout, autoGrowLayout, fixedWidthLayout } from "../utils/layo
 
 const headerStyle = {
 	padding: "1rem",
-	fontSize: "2rem",
-	background: "rgba(255, 255, 255, 0.08)"
+	fontSize: "2rem"
 }
 
 const iconStyle = {
@@ -44,7 +43,7 @@ export default class DB extends Component {
 			<div>
 				<div style={headerStyle}>
 					<span className="ion-social-buffer" style={iconStyle}></span>
-					<span>数据库属性</span>
+					<span>Database Infomation</span>
 				</div>
 
 				<section style={bodyStyle}>
@@ -139,16 +138,6 @@ export default class DB extends Component {
 							<span style={angleStyle}>&gt;</span>
 						</div>
 
-						
-
-						{/*
-						<div style={{ marginBottom: ".5rem" }}>
-							<span>名称</span>
-							<span style={labelStyle}> WebHappyHack</span>
-						</div>
-						*/}
-
-						
 					</div>
 				</section>
 			</div>

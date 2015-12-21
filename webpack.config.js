@@ -1,9 +1,11 @@
+var path = require('path');
+var webpack = require('webpack');
 var ExtractTextPlugin = require("extract-text-webpack-plugin");
 
 module.exports = {
-    entry: "./client/redux/main.js",
+    entry: "./app/main.js",
     output: {
-        path: __dirname,
+        path: path.resolve(__dirname, 'dist'),
         filename: "bundle.js"
     },
     module: {
@@ -24,5 +26,8 @@ module.exports = {
     },
     plugins: [				
 				new ExtractTextPlugin("[name].css", { allChunks: true })
-    ]
+    ],
+		resolve: {
+				extensions: ["", ".js", ".json", ".jsx"]
+		}
 };
